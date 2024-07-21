@@ -14,4 +14,4 @@ export const getAllContacts = async () => {
 
 getAllContacts().then((contacts) => console.log(contacts));
 
-console.log(await getAllContacts());
+// console.log(await getAllContacts());
